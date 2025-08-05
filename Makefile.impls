@@ -37,7 +37,7 @@ IMPLS = ada ada.2 awk bash basic bbc-basic c c.2 chuck clojure coffee common-lis
 	guile hare haskell haxe hy io janet java java-truffle js jq julia kotlin latex3 livescript logo lua make mal \
 	matlab miniMAL nasm nim objc objpascal ocaml perl perl6 php picolisp pike plpgsql \
 	plsql powershell prolog ps purs python2 python3 r racket rexx rpython ruby ruby.2 rust scala scheme skew sml \
-	swift swift3 swift4 swift6 tcl ts vala vb vbs vhdl vimscript wasm wren yorick xslt zig
+	swift swift3 swift4 swift6 tcl ts vala vb vbs vhdl vimscript wasm wren yorick xslt zig ajc-zig
 
 step5_EXCLUDES += bash        # never completes at 10,000
 step5_EXCLUDES += basic       # too slow, and limited to ints of 2^16
@@ -202,3 +202,4 @@ wren_STEP_TO_PROG =          impls/wren/$($(1)).wren
 yorick_STEP_TO_PROG =        impls/yorick/$($(1)).i
 xslt_STEP_TO_PROG =          impls/xslt/$($(1))
 zig_STEP_TO_PROG =           impls/zig/$($(1))
+ajc-zig_STEP_TO_PROG =       impls/ajc-zig/$($(1))

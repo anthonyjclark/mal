@@ -1,0 +1,35 @@
+{
+  "makefile.configureOnOpen": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+
+    ".github/": true,
+    ".gitattributes": true,
+    ".gitignore": true,
+    ".gitmodules": true,
+    ".travis.yml": true,
+    "ci.sh": true,
+    "get-ci-matrix.py": true,
+    "IMPLS.yml": true,
+    "LICENSE": true,
+    "runtest.py": true,
+    "voom-like-version.sh": true,
+    "lib/": true,
+    "impls/[^a]*": true,
+    "impls/a[^j]*": true,
+    "impls/aj[^c]*": true,
+  },
+  "cSpell.words": [
+    "comptime",
+    "deinit",
+    "errdefer",
+    "lldb",
+    "quasiquote",
+    "rlwrap",
+    "usize"
+  ]
+}
